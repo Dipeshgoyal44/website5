@@ -11,8 +11,6 @@ app.set('layout', 'layouts/layout')
 app.use(expressLayouts)
 app.use(express.static('public'))
 
-app.use('/', indexRouter) {
-    
-}
+app.use('/', indexRouter) 
 
 app.listen(process.env.PORT || 3000)
